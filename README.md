@@ -9,3 +9,11 @@
 | `<C-n>`      | toggle neotree on the left |
 | `<leader>ff` | fuzzy finder               |
 | `<leader>fg` | live grep                  |
+| `K`          | hover                      |
+| `gd`         | go to definition           |
+| `<leader>ca` | code action                |
+
+### Visual Mode
+| Command      | Description                |
+| ------------ | -------------------------- |
+| `<leader>ca` | code action                |
