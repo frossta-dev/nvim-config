@@ -1,7 +1,7 @@
 # frossta's neovim configuration
 
 ## Keymaps
-map leader = ' '
+`map leader = ' '`
 ### Normal Mode
 | Command      | Description                |
 | ------------ | -------------------------- |
