@@ -1,4 +1,4 @@
-# frossta's neovim configuration
+# Frossta's Neovim Configuration
 
 ## Keymaps
 `map leader = ' '`

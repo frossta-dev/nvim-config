@@ -4,21 +4,21 @@ return {
   build = ':TSUpdate',
   config = function()
     local treesitter = require('nvim-treesitter')
-    treesitter.install({ 
+    treesitter.install({
       'rust',
-      'javascript', 
-      'typescript', 
-      'zig', 
-      'cpp', 
-      'c', 
-      'java', 
-      'kotlin', 
-      'python', 
+      'javascript',
+      'typescript',
+      'zig',
+      'cpp',
+      'c',
+      'java',
+      'kotlin',
+      'python',
       'lua',
     })
     vim.api.nvim_create_autocmd('FileType', {
       pattern = { '*' },
-      callback = function() 
+      callback = function()
         local filetype = vim.bo.filetype
         if filetype and filetype ~= "" then
           local success = pcall(function()
