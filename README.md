@@ -3,7 +3,7 @@
 ## Keymaps
 map leader = ' '
 ### Normal Mode
-- <leader>pv -> open netrw
-- <C-n> -> toggle neotree on the left
-- <leader>ff -> fuzzy finder
-- <leader>fg -> live grep
+- `<leader>pv` -> open netrw
+- `<C-n>` -> toggle neotree on the left
+- `<leader>ff` -> fuzzy finder
+- `<leader>fg` -> live grep
