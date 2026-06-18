@@ -57,7 +57,7 @@ vim.keymap.set('n', '<leader>ps', function() MiniPick.builtin.grep({ pattern = v
 vim.keymap.set('n', '<leader>vh', function() MiniPick.builtin.help() end, { desc = 'Mini Help' })
 
 vim.keymap.set('n', '<leader>xx', function() MiniExtra.pickers.diagnostic() end, { desc = 'Mini Picker Diagnostics' })
-vim.keymap.set('n', '<leader>vh', function() MiniExtra.pickers.keymaps() end, { desc = 'Search Keymaps' })
+vim.keymap.set('n', '<leader>pk', function() MiniExtra.pickers.keymaps() end, { desc = 'Search Keymaps' })
 
 -- mini completions --
 local MiniCompletion = require("mini.completion")
